@@ -1,0 +1,13 @@
+Created a basic VBA that sorts the results of games played in Clash Royale. This lets me see what cards and the levels were used against me.
+
+Info gathered via https://royaleapi.com/player/9YJ9PV9RY
+
+I'll create a public one for others to use. Right now, this is uploaded based on my own stats so people can see what I'm trying to achieve in creating this program.
+
+HOW TO USE
+
+-- Select Start Over to begin
+-- Choose Ranked, Blitz Tourney or Challenge
+-- If choosing Wins or Losses, you can choose Calculate Splits or Calculate All
+-- If you don't choose Wins or Losses, you must choose Calculate All
+-- To clear, select Start Over
