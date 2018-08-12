@@ -1,13 +1,48 @@
-Created a basic VBA that sorts the results of games played in Clash Royale. This lets me see what cards and the levels were used against me.
+= = =
+1. HOW TO USE
+= = =
 
-Info gathered via https://royaleapi.com/player/9YJ9PV9RY
+This VBA sorts and analyzes your last 25 games played in full and pulls stats based on certain modes: Ranked, Tournament and all Challenges. As long as you have played at least one game in a certain mode, you will be able to view the results.
 
-I'll create a public one for others to use. Right now, this is uploaded based on my own stats so people can see what I'm trying to achieve in creating this program.
+Click on the Start Over button to clear the data and update the VBA with the latest data pull. 
 
-HOW TO USE
+Click on one of the buttons to view the data from one of the modes.
 
--- Select Start Over to begin
--- Choose Ranked, Blitz Tourney or Challenge
--- If choosing Wins or Losses, you can choose Calculate Splits or Calculate All
--- If you don't choose Wins or Losses, you must choose Calculate All
--- To clear, select Start Over
+= = = 
+2. ADD YOUR OWN STATS
+= = =
+
+The stats that are currently included are of mine (thegametwok, user account #9YJ9PV9RY). Information is added using RoyaleAPI.
+
+Explanation of editing this VBA for your own stats are based on Excel 2016.
+
+To add your own stats, you will need to know your account number, which is found in the game. If you know your account number, you can replace it with YOURACCOUNTNUMBER in the following link:
+
+https://royaleapi.com/player/YOURACCOUNTNUMBER/battles/csv
+
+Or, you can go to royaleapi.com.
+Search for your account, click on your account.
+Click battles and right-click on Export to CSV, copy the link location.
+
+Once you have the link to your own data, go back to the VBA.
+
+Click on the C tab on the bottom.
+Go to the Query Tab at the ribbon.
+Click Edit in the Edit section of the Query Tab.
+In the Power Query Editor, click Data Source Settings in the Data Sources section.
+Click Change Source ...
+In the URL, add your link.
+Click Close to close the popup.
+Click the Close & Load icon to close the Power Query Editor
+
+All information is now available in C and the macros will work in M.
+
+= = =
+3. QUESTIONS?
+= = =
+
+I'm continuously making updates to the VBA and will provide occasional updates as needed. Any questions, please email me at getyourtournament@gmail.com.
+
+Thanks for using!
+
+--Glenn
