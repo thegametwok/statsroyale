@@ -1,18 +1,37 @@
 = = =
+Clash Royale Excel VBA - Last 25 games played
+= = =
+
+This Excel VBA sorts and analyzes your last 25 Clash Royale games played in full and pulls stats based on certain modes: Ranked, Tournament and all Challenges. As long as you have played at least one game in a certain mode within your last 25 games, you will be able to view the results.
+
+Here are the different elements made available in the Opponent Stats:
+
+- Games: How many games the card has appeared on a roster. Even if the opponent does not use the card, as long as he or she has it, it is accounted for.
+- Avg Ovr: The average level of the card overall in the amount of games it has appeared on a roster.
+- Avg W: The average level of the card in the amount of games it has appeared when you won the game.
+- Avg L: The average level of the card in the amount of games it has appeared when you lost the game.
+- W-L-T: Your record when the opponent has a certain card in his or her roster. 
+
+The last game played takes into account the last game played based on the mode, NOT the last game played no matter what. Here are the different elements made available in the Last Game Played:
+
+- Avg Elixir: The icon will shade blue to you or your opponent based on who has the lower elixir average. 
+- Trophy count
+- Cards used and card level: You can see the card and card level used by you and your opponent. 
+- Average trophy total: This shows how many opponents you've faced in the current mode out of your last 25 games played and the average trophy total.
+
+= = =
 1. HOW TO USE
 = = =
 
-This VBA sorts and analyzes your last 25 games played in full and pulls stats based on certain modes: Ranked, Tournament and all Challenges. As long as you have played at least one game in a certain mode, you will be able to view the results.
-
 Click on the Start Over button to clear the data and update the VBA with the latest data pull. 
 
-Click on one of the buttons to view the data from one of the modes.
+Click on "Ranked", "Challenge" or "Tournament" to view the data from one of the modes.
 
 = = = 
 2. ADD YOUR OWN STATS
 = = =
 
-The stats that are currently included are of mine (thegametwok, user account #9YJ9PV9RY). Information is added using RoyaleAPI.
+The stats that are currently included are of mine (thegametwok, user account 9YJ9PV9RY). Information is added using RoyaleAPI.
 
 Explanation of editing this VBA for your own stats are based on Excel 2016.
 
@@ -38,7 +57,15 @@ Click the Close & Load icon to close the Power Query Editor
 All information is now available in C and the macros will work in M.
 
 = = =
-3. QUESTIONS?
+3. PRECAUTIONS
+= = =
+
+- You will always need to hit Start Over to get the updated total and the latest game.
+- You must exit the result screen from your game to get the updated total from the last game played. It is best to wait about 10 seconds after exiting.
+- The program will mess up if you go from one mode to another without hitting Start Over. ALWAYS hit Start Over before calling the updated results.
+
+= = =
+4. QUESTIONS?
 = = =
 
 I'm continuously making updates to the VBA and will provide occasional updates as needed. Any questions, please email me at getyourtournament@gmail.com.
